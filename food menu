@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int ch;
+ printf("MENU 1.Pizza /n 2.Burger /n 3.Pasta /n 4.Fries /n 5.Sandwich");
+ printf("/n enter your choice from the menu:");
+ scanf("%d",&ch);
+ switch(ch)
+ {
+  case 1: printf("FOOD ITEM : pizza /n PRICE:239 /n");
+          break;
+  case 2: printf("FOOD ITEM : burger /n PRICE:789 /n");
+          break;
+  case 3: printf("FOOD ITEM : pasta /n PRICE:679 /n");
+          break;
+  case 4: printf("FOOD ITEM : fries /n PRICE:99 /n");
+          break;
+  case 5: printf("FOOD ITEM : sandwich /n PRICE:279 /n");
+          break;
+  default:printf("/n ïnvalid choice");
+  }
+  return 0;
+ }
+  
+   
